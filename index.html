@@ -10,24 +10,49 @@
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
-  <title>vending-machine</title>
+  <title>Vending Machine</title>
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select">
       <a class="navbar-brand ms-3" href="#">
-        <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
-          loading="lazy">
-        <span class="ms-2">vending-machine</span>
+        <!-- <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
+          loading="lazy"> -->
+        <span class="ms-2">The Vending Machine</span>
       </a>
     </nav>
   </header>
+
   <main>
     <div class="container-fluid">
+
       <div class="row">
-        <div class="col-12">
+
+        <div class="col-7">
+
+          <div class="row">
+
+            <div class="col-4">
+              <div class="m-5 bg-dark text-light rounded shadow">
+                <img src="./assets/img/gameboy.jpeg" class="img-fluid rounded-top" alt="">
+                <div class="p-3">
+                  <h3>Gameboy</h3>
+                  <div class="d-flex justify-content-between">
+                    <h3>$30.50</h3>
+                    <button type="button" class="btn btn-primary">Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
           <div id="app"></div>
+        </div>
+        <div class="col-5">
+          Column 2
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 
 
 export class SnacksController {
-  Constructor(){
+  constructor(){
     console.log('Snacks Controller Loaded')
   }
 }

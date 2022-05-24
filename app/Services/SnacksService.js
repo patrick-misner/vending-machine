@@ -1,7 +1,10 @@
 
 
 class SnacksService {
-  console.log('snack service')
+
+  buyItem(id) {
+    console.log ('snack service buyItem', id)
+  }
 }
 
 

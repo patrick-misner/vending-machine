@@ -1,9 +1,19 @@
+import { Snack } from "./Models/Snack.js"
 import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
 
 class AppState extends EventEmitter {
   /** @type {import('./Models/Value').Value[]} */
   values = []
+
+  wallet = 0
+  snacks = [
+    new Snack(1, 'Egg Sandwich', './assets/img/eggsandwich.jpeg', 5),
+    new Snack(2, 'Gameboy', './assets/img/gameboy.jpeg', 40),
+    new Snack(3, 'Glasses', './assets/img/glassesjpeg', 30),
+    new Snack(4, 'Mountian Dew', './assets/img/mtdew.jpeg', 3),
+    new Snack(5, "Thor's Hammer", './assets/img/thorhammer.jpeg', 50)
+  ]
 }
 
 export const ProxyState = new Proxy(new AppState(), {

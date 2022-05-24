@@ -9,10 +9,10 @@ class AppState extends EventEmitter {
   wallet = 0
   snacks = [
     new Snack(1, 'Egg Sandwich', './assets/img/eggsandwich.jpeg', 5),
-    new Snack(2, 'Gameboy', './assets/img/gameboy.jpeg', 40),
-    new Snack(3, 'Glasses', './assets/img/glassesjpeg', 30),
+    new Snack(2, 'Gameboy', './assets/img/gameboy.jpeg', 5),
+    new Snack(3, 'Glasses', './assets/img/glasses.jpeg', 4),
     new Snack(4, 'Mountian Dew', './assets/img/mtdew.jpeg', 3),
-    new Snack(5, "Thor's Hammer", './assets/img/thorhammer.jpeg', 50)
+    new Snack(5, "Thor's Hammer", './assets/img/thorhammer.jpeg', 6)
   ]
 }
 

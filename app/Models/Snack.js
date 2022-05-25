@@ -19,7 +19,7 @@ export class Snack {
         <h3>${this.name}</h3>
         <div class="d-flex justify-content-between">
           <h3>$${this.price.toFixed(2)}</h3>
-          <button id="${this.id}-button" onclick="app.snacksController.buyItem(${this.id})" type="button" class="btn btn-primary">Buy</button>
+          <button id="${this.id}-button" onclick="app.snacksController.buyItem(${this.id})" type="button" class="btn btn-primary" disabled>Buy</button>
         </div>
       </div>
     </div>
